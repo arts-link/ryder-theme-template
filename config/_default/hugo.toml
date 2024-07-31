@@ -1,7 +1,7 @@
 # !!! exampleSite only, set this to your own site URL
 baseURL= "localhost"
 languageCode= "en-us"
-title= "The Ryder Theme"
+title= "All Day Rian"
 theme= ["ryder"]
 summaryLength = 15
 enableRobotsTXT = true
