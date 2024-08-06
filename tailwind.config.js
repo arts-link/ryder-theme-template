@@ -7,15 +7,14 @@ module.exports = {
     "./layouts/**/*.html",
     "./config/**/*.toml",
     "./content/**/*.md",
-    "./../../themes/ryder/layouts/**/*.html",
   ],
   darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
-        "hidden-home": " url('/ryder/images/hidden-home-cover.webp')",
-        "header-sunset-mb": " url('/ryder/images/hidden-home-cover.webp')",
-        "header-ryder": " url('/ryder/images/ryder-theme-og.webp')",
+        "hidden-home": " url('/images/hidden-home-cover.webp')",
+        "header-sunset-mb": " url('/images/hidden-home-cover.webp')",
+        "header-ryder": " url('/images/ryder-theme-og.webp')",
       },
       fontFamily: {
         titillium: ["Titillium Web", ...defaultTheme.fontFamily.sans],

@@ -1,16 +1,15 @@
 # !!! exampleSite only, set this to your own site URL
 baseURL= "localhost"
 languageCode= "en-us"
-title= "All Day Rian"
+title= "My new ryder theme website"
 theme= ["ryder"]
 summaryLength = 15
 enableRobotsTXT = true
-copyright = "©️ Ryder Theme 2024"
+copyright = "©️ 2024"
 enableEmoji = true
 enableGitInfo = true
 paginate = 80
 
-# !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
 [params]
   description = 'A theme for hugo'
   TocOpen = true
@@ -21,12 +20,14 @@ paginate = 80
   # showDate = true 
   hideAuthor = false
   showDarkToggle = true
-  loadLeaflet = true 
+  # if you use maps, load it up
+  loadLeaflet = false
+  # for open graph default image when sharing site links
   og_image_default = 'images/ryder-theme-og.webp'
   # homePageFeedHeader = "the new style"
-  logo_firstWord = 'ryder'
-  logo_lastWord = 'theme'
-  logo_tagline = "FOR HUGO WEBSITES"
+  logo_firstWord = 'My'
+  logo_lastWord = 'Website'
+  logo_tagline = "Update with your tagline"
   logo_fontClass = 'font-titillium'
   repository = "https://github.com/arts-link/ryder"
   articleBackgroundStyle = "bg-gradient-to-l from-blue-100 to-green-100 dark:from-blue-800 dark:to-green-800"
@@ -41,16 +42,10 @@ paginate = 80
     headerBackgroundFrameInner = "bg-header-ryder h-[300px] bg-cover bg-left"
 
 [menus]
-[[menus.main]]
+[[menus.footer]]
     name = 'Tags'
     pageRef = '/tags'
-    parent = 'posts'
     weight = 9990
-[[menus.footer]]
-    name = 'File a Bug or Feature Request'
-    URL = 'https://github.com/arts-link/ryder/issues/new/choose'
-    rel = '_blank'
-    weight = 10
 [[menus.footer]]
     name = 'Contact Us'
     pageRef = '/contact'
