@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../themes/ryder/assets/*"
+    "../../../Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/arts-link/ryder@v0.0.2-alpha/assets/*"
    ]
   }
  }

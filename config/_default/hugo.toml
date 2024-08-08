@@ -61,6 +61,8 @@ paginate = 80
   [[module.mounts]]
     source = "hugo_stats.json"
     target = "assets/watching/hugo_stats.json"
+  [[module.imports]]
+    path = 'github.com/arts-link/ryder'
 
 [build]
   writeStats = true
